@@ -1,3 +1,3 @@
-FROM nginx:alpine
+FROM nginx:1.23.1-alpine
 RUN echo "Welcome to Docker Workshop!" >/usr/share/nginx/html/index.html
 CMD ["nginx", "-g", "daemon off;"]
