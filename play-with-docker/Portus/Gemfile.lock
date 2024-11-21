@@ -189,7 +189,7 @@ GEM
     multipart-post (2.0.0)
     mysql2 (0.3.18)
     nenv (0.3.0)
-    net-ldap (0.11)
+    net-ldap (0.16.2)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
