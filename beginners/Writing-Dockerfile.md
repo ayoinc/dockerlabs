@@ -28,7 +28,7 @@ $ vi Dockerfile
 #### Setting a Base Image using FROM keyword
 
 ```
-FROM ubuntu
+FROM ubuntu:20.04
 ```
 
 Thus, our image would start building taking base as Ubuntu.
@@ -85,7 +85,7 @@ Benefit of this is that user can choose some other file to run with the same app
 So, our overall Dockerfile currently looks like this:
 
 ```
-FROM ubuntu
+FROM ubuntu:20.04
 MAINTAINER Prashansa Kulshrestha
 RUN apt-get update
 RUN apt-get install -y python
