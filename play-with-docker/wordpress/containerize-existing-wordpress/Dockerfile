@@ -1,2 +1,2 @@
-FROM wordpress:6.5.3-php8.3-fpm
+FROM wordpress:6.8.1-php8.3-fpm
 COPY . /var/www/html/wp-content/plugins/myplugin/
