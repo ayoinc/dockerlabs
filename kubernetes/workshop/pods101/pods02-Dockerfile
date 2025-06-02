@@ -1,4 +1,4 @@
-FROM python:3.10.14
+FROM python:3.14.0a4
 RUN pip install requests
 COPY watcher.py /
 ENTRYPOINT ["python", "/watcher.py"]
