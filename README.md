@@ -1,5 +1,7 @@
 # Welcome to Docker Labs  
 
+[![IaC](https://app.soluble.cloud/api/v1/public/badges/5a3c687e-e230-4907-9dd5-188a36a30640.svg)](https://app.soluble.cloud/repos/details/github.com/ayoinc/dockerlabs)  [![HIPAA](https://app.soluble.cloud/api/v1/public/badges/6a412616-1ff4-4d90-be36-15231601230b.svg)](https://app.soluble.cloud/repos/details/github.com/ayoinc/dockerlabs)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/fd7f24da-2744-4fdc-814d-e3f721ce9dca.svg)](https://app.soluble.cloud/repos/details/github.com/ayoinc/dockerlabs)  
+
 
 ![stars](https://img.shields.io/github/stars/collabnix/dockerlabs)
 ![forks](https://img.shields.io/github/forks/collabnix/dockerlabs)
