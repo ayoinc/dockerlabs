@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 4.2.8"
+gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 gem "sass-rails", ">= 3.2"
 gem "bootstrap-sass", "~> 3.3.4"
 gem "slim"
@@ -11,12 +11,12 @@ gem "base32"
 gem "active_model_serializers"
 gem "devise"
 gem "gravatar_image_tag"
-gem "public_activity"
-gem "active_record_union"
+gem "public_activity", ">= 1.4.3"
+gem "active_record_union", ">= 1.1.1"
 gem "mysql2"
 gem "search_cop"
 gem "kaminari"
-gem "crono"
+gem "crono", ">= 1.0.1"
 gem "net-ldap"
 gem "redcarpet"
 gem "font-awesome-rails"
@@ -62,8 +62,8 @@ gem "puma", "~> 3.7.0" if ENV["PORTUS_PUMA_DEPLOYMENT"] == "yes" || !packaging?
 
 unless packaging?
   group :development do
-    gem "annotate"
-    gem "rails-erd"
+    gem "annotate", ">= 2.6.6"
+    gem "rails-erd", ">= 1.4.7"
     gem "quiet_assets"
     gem "pry-rails"
     gem "git-review", require: false
