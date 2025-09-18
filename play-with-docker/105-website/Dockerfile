@@ -1,4 +1,4 @@
-FROM nginx:1.23.1
+FROM nginx:1.25.5
 
 COPY wrapper.sh /
 
